@@ -23,7 +23,7 @@ public class Main {
                     c.execute();
                     c.commandIsFinished = c.isFinished();
                     if (c.commandIsFinished) {
-                        c.done();
+                        c.end();
                     }
                 }
             }

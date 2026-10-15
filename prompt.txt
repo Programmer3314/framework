@@ -12,4 +12,10 @@ Enter start:
 All done.
 
 Once completed, go back to the main branch and create another new branch.
-Then, produce the prompt by creating commands.
+Then, produce the prompt by creating commands. We will discuss this as a group.
+Commands "start" when the robot starts, 
+"execute()" while the robot is running, 
+and "end()" when they "isFinished()".  
+Commands are created in classes that extend CommandBase.
+They can be activated by adding them to the "cmds" collection in Robot.
+
