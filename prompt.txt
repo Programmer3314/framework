@@ -1,3 +1,7 @@
+Run the program and see what it does and discuss how it works.
+
+Then create a new Git Branch and produce the prompt by modifying the Robot class.
+
 Enter start:
 5
 5 5 5
@@ -6,3 +10,6 @@ Enter start:
 2
 1
 All done.
+
+Once completed, go back to the main branch and create another new branch.
+Then, produce the prompt by creating commands.
