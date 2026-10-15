@@ -14,7 +14,7 @@ public class C1 extends CommandBase {
 
     @Override
     public boolean isFinished() {
-        return false;
+        return x==0;
     }
 
     @Override

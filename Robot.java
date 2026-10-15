@@ -1,6 +1,8 @@
 public class Robot extends RobotBase {
     public void init() {
         //System.out.println("init");
+        C1 c1=new C1();
+        cmds.add(c1);
     }
 
     public void periodic() {
