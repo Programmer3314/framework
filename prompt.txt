@@ -1,4 +1,4 @@
-Run the program and see what it does and discuss how it works.
+Run the program and see what it does. We will discuss how it works.
 
 Then create a new Git Branch and produce the prompt by modifying the Robot class.
 
