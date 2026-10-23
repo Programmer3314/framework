@@ -1,8 +1,9 @@
 public class NumCommand extends CommandBase {
     int number;
-    public NumCommand(int x) {
+    int sub;
+    public NumCommand(int x, int subInput) {
         number = x;
-
+        sub = subInput;
     }
     @Override
     public void start() {
@@ -10,8 +11,8 @@ public class NumCommand extends CommandBase {
 
     @Override
     public void execute() {
-        System.out.println(number);
-        number--;
+        System.out.print(number + " ");
+        number -= sub;
     }
 
     @Override
@@ -21,6 +22,7 @@ public class NumCommand extends CommandBase {
 
     @Override
     public void end() {
+        
     }
 
 }
