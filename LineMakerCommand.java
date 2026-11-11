@@ -7,7 +7,10 @@ public class LineMakerCommand extends CommandBase {
 
     @Override
     public void execute() {
-        System.out.println();
+        if (NumCommand.typedSomething) {
+            System.out.println();
+            NumCommand.typedSomething = false;
+        }
     }
 
     @Override

@@ -1,6 +1,7 @@
 public class NumCommand extends CommandBase {
     int number;
     int sub;
+    public static boolean typedSomething;
     public NumCommand(int x, int subInput) {
         number = x;
         sub = subInput;
@@ -12,6 +13,7 @@ public class NumCommand extends CommandBase {
     @Override
     public void execute() {
         System.out.print(number + " ");
+        typedSomething = true;
         number -= sub;
     }
 
