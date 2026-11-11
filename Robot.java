@@ -12,6 +12,7 @@ public class Robot extends RobotBase {
         c1 = new NumCommand(number, 1);
         c2 = new NumCommand(number, 2);
         c3 = new NumCommand(number, 3);
+        
         cmds.add(c1);
         cmds.add(c2);
         cmds.add(c3);
